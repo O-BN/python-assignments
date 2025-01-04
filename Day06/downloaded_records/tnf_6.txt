@@ -1,0 +1,57 @@
+LOCUS       XP_070516390             388 aa            linear   INV 30-DEC-2024
+DEFINITION  TNF receptor-associated factor 4 isoform X3 [Cardiocondyla
+            obscurior].
+ACCESSION   XP_070516390
+VERSION     XP_070516390.1
+DBLINK      BioProject: PRJNA1202182
+DBSOURCE    REFSEQ: accession XM_070660289.1
+KEYWORDS    RefSeq.
+SOURCE      Cardiocondyla obscurior
+  ORGANISM  Cardiocondyla obscurior
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Hymenoptera; Apocrita;
+            Aculeata; Formicoidea; Formicidae; Myrmicinae; Cardiocondyla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_091871) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI RefSeq
+            Annotation Status           :: Full annotation
+            Annotation Name             :: GCF_019399895.1-RS_2024_12
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 10.3
+            Annotation Method           :: Gnomon; cmsearch; tRNAscan-SE
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            Annotation Date             :: 12/27/2024
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..388
+                     /organism="Cardiocondyla obscurior"
+                     /isolate="alpha-2009"
+                     /db_xref="taxon:286306"
+                     /sex="pooled male and female"
+                     /tissue_type="whole body"
+                     /dev_stage="pupa"
+                     /linkage_group="LG08"
+     Protein         1..388
+                     /product="TNF receptor-associated factor 4 isoform X3"
+                     /calculated_mol_wt=43993
+     CDS             1..388
+                     /gene="Traf4"
+                     /coded_by="XM_070660289.1:1408..2574"
+                     /db_xref="GeneID:139104670"
+ORIGIN      
+        1 mgsivycihh kdgckwsdel rklkahlntc khdavpcgnk cgamiprvlm edhlkytcaq
+       61 rrarcdfcak eftghtlekh tgtcgyeply cenkcgmkvq rrhlgqhklg ecakrlvacr
+      121 yctkefvfdt lgahhakcgr fpvacphrce tavlpredle ihlkdhctth llsctfkdag
+      181 crfkgnrfsl dkhleesakm hlslmcslvt kqqhqitslk saisklslny tgtliwkitd
+      241 yaakmseaka kegmelvspp fytsqygykl qasiflngng tgegshisiy ikilpgeyda
+      301 llrwpfshsv sftmfdqtvi aekacnives fipdptwknf qrpsrepdsl gfgfprfvsh
+      361 emvkkrhfvk ddtmfirvkv dpskivav
+//
+

@@ -1,0 +1,60 @@
+LOCUS       XP_070453392             554 aa            linear   MAM 26-DEC-2024
+DEFINITION  autoimmune regulator isoform X3 [Equus przewalskii].
+ACCESSION   XP_070453392
+VERSION     XP_070453392.1
+DBLINK      BioProject: PRJNA1202102
+DBSOURCE    REFSEQ: accession XM_070597291.1
+KEYWORDS    RefSeq.
+SOURCE      Equus przewalskii (Przewalski's horse)
+  ORGANISM  Equus przewalskii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Equidae; Equus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_091857) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI RefSeq
+            Annotation Status           :: Full annotation
+            Annotation Name             :: GCF_037783145.1-RS_2024_12
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 10.3
+            Annotation Method           :: Gnomon; cmsearch; tRNAscan-SE
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            Annotation Date             :: 12/23/2024
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..554
+                     /organism="Equus przewalskii"
+                     /isolate="Varuska"
+                     /db_xref="taxon:9798"
+                     /chromosome="27"
+                     /sex="female"
+                     /tissue_type="blood"
+                     /dev_stage="adult"
+                     /geo_loc_name="USA: Minnesota"
+                     /collection_date="2023-08-07"
+     Protein         1..554
+                     /product="autoimmune regulator isoform X3"
+                     /calculated_mol_wt=58384
+     CDS             1..554
+                     /gene="AIRE"
+                     /coded_by="XM_070597291.1:148..1812"
+                     /db_xref="GeneID:103561239"
+ORIGIN      
+        1 masearaggd aslrrllrlh rteiavavds afpllhalad hdvvpedkfq etlrlkekeg
+       61 cpqafhalls wlltqdaavi ldfwrvlfkd fnlekyarlq pildsfpkdv dlsqprkgrk
+      121 ppagpkapvl lprpptkrka leepraaplt alsprgtssp gshgkgkplk kpdsnaepqr
+      181 lplgngiqtm sasvqravam ssgdvpgahg avegiliqqv fesggskkci qvggefytps
+      241 kfedpgggkn ktrsgglktl vrakgpqtaa pgggdpragq qgrvlappal psepqlhqkn
+      301 edecavcrdg geliccdgcp rafhlaclsp plqeipsgtw rctsclqgrp qrdlaqaeet
+      361 qpqeppaetp vllglrstge evrgpprepp agmdaavtyk hllappsaap lpvldssalr
+      421 pllcvgpegq qgpapgarcg vcgdgadvlr cahcaaafhw rchfpagars gavlrcrscs
+      481 gdpalapveg apapsparsa agpakvgdds aghepvlhrd dlesllnehs fdgilqwaiq
+      541 smsrplaeap tfps
+//
+

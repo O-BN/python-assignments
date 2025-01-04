@@ -1,0 +1,55 @@
+LOCUS       XP_070517289             355 aa            linear   INV 30-DEC-2024
+DEFINITION  uncharacterized protein [Cardiocondyla obscurior].
+ACCESSION   XP_070517289
+VERSION     XP_070517289.1
+DBLINK      BioProject: PRJNA1202182
+DBSOURCE    REFSEQ: accession XM_070661188.1
+KEYWORDS    RefSeq.
+SOURCE      Cardiocondyla obscurior
+  ORGANISM  Cardiocondyla obscurior
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Hymenoptera; Apocrita;
+            Aculeata; Formicoidea; Formicidae; Myrmicinae; Cardiocondyla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_091871) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI RefSeq
+            Annotation Status           :: Full annotation
+            Annotation Name             :: GCF_019399895.1-RS_2024_12
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 10.3
+            Annotation Method           :: Gnomon; cmsearch; tRNAscan-SE
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            Annotation Date             :: 12/27/2024
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..355
+                     /organism="Cardiocondyla obscurior"
+                     /isolate="alpha-2009"
+                     /db_xref="taxon:286306"
+                     /sex="pooled male and female"
+                     /tissue_type="whole body"
+                     /dev_stage="pupa"
+                     /linkage_group="LG08"
+     Protein         1..355
+                     /product="uncharacterized protein isoform X1"
+                     /calculated_mol_wt=40114
+     CDS             1..355
+                     /gene="LOC139105203"
+                     /coded_by="XM_070661188.1:150..1217"
+                     /db_xref="GeneID:139105203"
+ORIGIN      
+        1 mfsrrdligk ktsksifkse wkpllfiisv tcdesitlts gemskttgyp asllcfisly
+       61 lacssasesl kiptieanvs nddvtetqht tckiatedvv anaratvktv ltgvckgktm
+      121 dekftsleek lskqfadikw llynileqsn ylrsmrtanl hmfddyllsp rqdeidklnn
+      181 tiqnllilng sanafayywr vknfnimlan wptgrsmrsp tfyaghsgya mylkitpkyf
+      241 pdgtifvgvg ltrgsydsvl awpfphrirl evldhslrga redrrsriwd pvtlctedfw
+      301 grptkavdnp ecvglsipkr vilpkslpsq ryseelqylp sstsickpac skdiw
+//
+

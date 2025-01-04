@@ -1,0 +1,95 @@
+LOCUS       XP_059745425             474 aa            linear   MAM 26-DEC-2024
+DEFINITION  autoimmune regulator isoform X1 [Bos taurus].
+ACCESSION   XP_059745425
+VERSION     XP_059745425.1
+DBLINK      BioProject: PRJNA450837
+DBSOURCE    REFSEQ: accession XM_059889442.1
+KEYWORDS    RefSeq.
+SOURCE      Bos taurus (domestic cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Artiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_037328.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI RefSeq
+            Annotation Status           :: Updated annotation
+            Annotation Name             :: GCF_002263795.3-RS_2024_12
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 10.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon;
+                                           cmsearch; tRNAscan-SE
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            Annotation Date             :: 12/22/2024
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..474
+                     /organism="Bos taurus"
+                     /isolate="L1 Dominette 01449 registration number 42190680"
+                     /db_xref="taxon:9913"
+                     /chromosome="1"
+                     /sex="female"
+                     /tissue_type="left lung"
+                     /breed="Hereford"
+     Protein         1..474
+                     /product="autoimmune regulator isoform X1"
+                     /calculated_mol_wt=50249
+     Region          22..109
+                     /region_name="HSR"
+                     /note="HSR domain; pfam03172"
+                     /db_xref="CDD:460835"
+     Region          206..270
+                     /region_name="SAND"
+                     /note="SAND domain; cl02536"
+                     /db_xref="CDD:470606"
+     Region          305..347
+                     /region_name="PHD1_AIRE"
+                     /note="PHD finger 1 found in autoimmune regulator (AIRE);
+                     cd15539"
+                     /db_xref="CDD:277014"
+     Site            order(305,311..317,319,327,337..342)
+                     /site_type="other"
+                     /note="histone H3 binding site [polypeptide binding]"
+                     /db_xref="CDD:277014"
+     Region          325..>371
+                     /region_name="BAH"
+                     /note="or Bromo Adjacent Homology domain (also called ELM1
+                     and BAM for Bromo Adjacent Motif). BAH domains have first
+                     been described as domains found in the polybromo protein
+                     and Yeast Rsc1/Rsc2 (Remodeling of the Structure of
+                     Chromatin). They also occur in...; cl02608"
+                     /db_xref="CDD:470629"
+     Region          440..>467
+                     /region_name="PHD2_AIRE"
+                     /note="PHD finger 2 found in autoimmune regulator (AIRE);
+                     cd15540"
+                     /db_xref="CDD:277015"
+     Site            order(440,449..453,457)
+                     /site_type="other"
+                     /note="putative histone H3 binding site [polypeptide
+                     binding]"
+                     /db_xref="CDD:277015"
+     CDS             1..474
+                     /gene="AIRE"
+                     /coded_by="XM_059889442.1:329..1753"
+                     /db_xref="GeneID:784775"
+                     /db_xref="VGNC:VGNC:53512"
+ORIGIN      
+        1 magetraggd aalrrllrlh rteiavavds afpllhalad hdvvpeekfq etlrlkekeg
+       61 cpqafhalls wlltqdtgai ldfwrvlfkd ynleryarlq sildtfpkdv dlsqprkgrr
+      121 spagpkatvl lprpptkrka leeprtvppa alsprgtssp antgsqtktk pakkpesnae
+      181 pqrlplgngi qtmstsvqra mavssgdvpg argavegili qqvfesggsk kciqvggefy
+      241 tpnkfedpag gknktrsssl ktlvrakgtq apapgggdsr agprdrapap palpsepqlh
+      301 qnedecaacr dggellccdg cprafhlacl tpplseipsg twrcsncvqg ttaqrdlpra
+      361 eqprpqelpa etpaflglrs geearalstg lppgtdaavt ykhllappsv aplpvldpsa
+      421 lrpllcvgpe gqqgpvpgar cgvcgdgada lrcahcaaaf hwrchfpgca trpg
+//
+

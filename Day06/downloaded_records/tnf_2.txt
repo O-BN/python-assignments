@@ -1,0 +1,57 @@
+LOCUS       XP_070517651             355 aa            linear   INV 30-DEC-2024
+DEFINITION  TNF receptor-associated factor 6-like isoform X1 [Cardiocondyla
+            obscurior].
+ACCESSION   XP_070517651
+VERSION     XP_070517651.1
+DBLINK      BioProject: PRJNA1202182
+DBSOURCE    REFSEQ: accession XM_070661550.1
+KEYWORDS    RefSeq.
+SOURCE      Cardiocondyla obscurior
+  ORGANISM  Cardiocondyla obscurior
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Endopterygota; Hymenoptera; Apocrita;
+            Aculeata; Formicoidea; Formicidae; Myrmicinae; Cardiocondyla.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_091872) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI RefSeq
+            Annotation Status           :: Full annotation
+            Annotation Name             :: GCF_019399895.1-RS_2024_12
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 10.3
+            Annotation Method           :: Gnomon; cmsearch; tRNAscan-SE
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            Annotation Date             :: 12/27/2024
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..355
+                     /organism="Cardiocondyla obscurior"
+                     /isolate="alpha-2009"
+                     /db_xref="taxon:286306"
+                     /sex="pooled male and female"
+                     /tissue_type="whole body"
+                     /dev_stage="pupa"
+                     /linkage_group="LG09"
+     Protein         1..355
+                     /product="TNF receptor-associated factor 6-like isoform
+                     X1"
+                     /calculated_mol_wt=40889
+     CDS             1..355
+                     /gene="LOC139105443"
+                     /coded_by="XM_070661550.1:201..1268"
+                     /db_xref="GeneID:139105443"
+ORIGIN      
+        1 mttsdrltep vavaedianc vesikddves rfecpiclsw lrdpvltscg hkfcsqcidt
+       61 wlkkdsaccp idskpltseg lfpdlytfre isqkrtsciy qqfgcqvqls piemethitq
+      121 ctckqdflks rvekkntnam sveskmwdpp lkngiqvadk eepspdwqql lknlyerivv
+      181 leqenrelsi tvsnqknqla amclrncngv yiwrlksfqe kleamtkdpl kmfyssgfyt
+      241 spngykicar inisskdpdf lsfvlhimks enddaldwpf ngtmffalvh pqdseknice
+      301 itssrpdlea frkptcelnk rsfgytefir lrdltdflqn dtlifrievh picft
+//
+
