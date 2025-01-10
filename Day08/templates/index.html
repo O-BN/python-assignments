@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NCBI Data Downloader</title>
+</head>
+<body>
+    <h1>NCBI Data Downloader</h1>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    <form method="post">
+        <label for="database">Database:</label>
+        <select name="database" id="database">
+            <option value="protein">Protein</option>
+            <option value="nucleotide">Nucleotide</option>
+            <option value="gene">Gene</option>
+            <option value="genome">Genome</option>
+            <option value="pubmed">PubMed</option>
+            <option value="taxonomy">Taxonomy</option>
+            <option value="snp">SNP</option>
+            <option value="dbvar">dbVar</option>
+            <option value="biosample">BioSample</option>
+            <option value="bioproject">BioProject</option>
+            <option value="nuccore">Nucleotide Core</option>
+            <option value="structure">Structure</option>
+        </select><br><br>
+        <label for="term">Search Term:</label>
+        <input type="text" id="term" name="term" required><br><br>
+        <label for="number">Number of Results:</label>
+        <input type="number" id="number" name="number" min="1" max="99" value="10" required><br><br>      
+        <label for="organism">Organism:</label>
+        <select name="organism" id="organism">
+            <option value="all">All</option>
+            <option value="Mus Musculus">Mus Musculus</option>
+            <option value="Homo sapiens">Homo sapiens</option>
+        </select><br><br>   
+        
+        <button type="submit">Search</button>
+    </form>
+
+    {% if saved_files %}
+        <p>Total results found: {{ total_results }}</p>
+        
+        <h2>Download Results</h2>
+            {% for file in saved_files %}
+                <p>{{ file.split('\\')[1] }}</p>
+                {% endfor %}
+    {% endif %}
+
+    <h3>Logs file</h3>
+    <a href="/download_log">Download Search Log</a>
+</body>
+</html>
