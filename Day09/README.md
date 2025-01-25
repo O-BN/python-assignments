@@ -12,9 +12,3 @@ This Python script automates the process of downloading sequence files from NCBI
 - **Error Handling**: Skips problematic files and logs a warning.
 
 ---
-
-## Installation
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
